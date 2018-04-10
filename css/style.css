@@ -125,6 +125,33 @@ p {
 }
 
 /*************
+Testimonal
+************/
+
+.testimonial {
+  background color: yellow;
+  background-size: cover;
+  padding: 70px 0;
+  color: #fff;
+}
+
+blockquote {
+  font-size: 26px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  
+  margin: 0 auto;
+  color: white;
+}
+
+blockquote span {
+  font-weight: 600;
+  display: block;
+  font-style: normal;
+}
+
+/*************
 FOOTER
 ************/
 
