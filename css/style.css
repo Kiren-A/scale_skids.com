@@ -50,9 +50,9 @@ body {
 /*************
 HEADER  
 ************/
-header {
+header,
+footer {
   background-color: yellow;
-  
   border-radius: 2px;
 }
 
@@ -63,15 +63,24 @@ h1 {
 
   }
 
-.main-pic {
-  content: url("../images/pic2.jpg");
-  content: cover;
-  border: 5px;
-  border-style: solid;
-  border-color: yellow;
-  border-radius: 20px;
-  margin-top: 20px;
-  
+.main-pic-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.main-pic-wrapper .main-image {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  max-height: initial;
+}
+
+.main-pic-wrapper .secondary-image {
+  position: absolute;
+  bottom: -200PX;
+  right: -350px;
+  width: 550px;
+  margin-right: 60px;
 }
 
 img {
@@ -81,36 +90,57 @@ img {
   border-radius: 20px;
   max-width: 750px;
   max-height: 500px;
-  margin-top: 30px;
+  margin: 20px 20px 10px 20px;
   
-
 }
 
-.textbox {
-  border: 30px;
-  border-color: green;
-}
-
-.textbox1
-.textbox2
 p {
-  font-size: 15px;
+  font-size: 20px;
   font-family: open-sans;
-  font-style: italic;
-  color: black;
+  font-style: bold;
+  color: white;
+
 }
 
-footer {
-  background-color: yellow;
+.image-right,
+.image-left {
+  display: flex;
 }
+
+.image-right img {
+  order: 1;
+}
+
+.image-left img {
+  order: -1;
+}
+
+.image-right p,
+.image-left p {
+  padding-top: 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+/*************
+FOOTER
+************/
 
 a {
   display: inline-block;
   list-style: none;
-  margin: 0 26px 75px;
+  color: black;
+
+}
+
+.contact p {
+  color: black;
+  padding-top: 20px;
+
 }
 
 .contact {
   text-align: center;
-
 }
