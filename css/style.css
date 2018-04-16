@@ -27,7 +27,7 @@ body {
 	line-height: 1.5;
 	font-family: 'Open Sans', 'merriweather' sans-serif;
   background-color: black;
-
+  
 }
 
 
@@ -85,8 +85,12 @@ nav ul li {
 }
 
 /********************
-Pictures
+Pictures & Main
 ********************/
+.main {
+  margin: 10px;
+}
+
 .main-pic-wrapper {
   position: relative;
   display: inline-block;
@@ -218,4 +222,33 @@ MAIN GALLERY
 /*****************
 MOBILE VERSION
 *****************/
+/**
+@media screen and (max-width: 1024px) {
 
+  *, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+
+
+  .slick-slide {
+    width: 500px;
+  }
+
+  **/
+}
