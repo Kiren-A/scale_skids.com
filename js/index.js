@@ -4,8 +4,3 @@ $(".testimonial").slick({
 	slidesToScroll: 1,
 	dots: true
 });
-
-$(".main-gallery img").on("click", function() {
-	
-
-});
