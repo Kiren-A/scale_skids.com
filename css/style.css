@@ -53,7 +53,7 @@ header,
 footer {
   background-color: yellow;
   border-radius: 2px;
-  padding: 25px 0;
+  padding: 15px 0;
   overflow: hidden;
 }
 
@@ -62,10 +62,10 @@ h1 {
   font-weight: bold;
   text-align: center;
 
-  }
+}
 
 /******************
-GALLERY DROP DOWN
+NAV
 ******************/
 nav {
   float: right;
@@ -75,33 +75,6 @@ nav ul li {
   margin: 0 0 0 20px;
   font-size: 24px;
 }
-
-
-/**
-nav {
-  float: right;
-  font-size: 20px;
-  font-weight: 600;
-}
-
-nav ul {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  overflow: hidden;
-}
-
-nav li {
-  list-style: none;
-  display: inline-block;
-}
-
-nav li first-child {
-  padding-right: 10px;
-
-}
-**/
 
 .button1 {
   color: yellow;
@@ -228,11 +201,20 @@ MAIN GALLERY
 
 .main-gallery {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
 
-
+.main-gallery img {
+  border: 5px;
+  border-style: solid;
+  border-color: yellow;
+  border-radius: 20px;
+  max-width: 550px;
+  max-height: 350px;
+  margin: 20px 20px 10px 20px;
+}
 /*****************
 MOBILE VERSION
 *****************/
