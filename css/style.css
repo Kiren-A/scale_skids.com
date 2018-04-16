@@ -26,7 +26,6 @@ body {
 	color: #000;
 	line-height: 1.5;
 	font-family: 'Open Sans', 'merriweather' sans-serif;
-	color: black;
   background-color: black;
 
 }
@@ -54,6 +53,8 @@ header,
 footer {
   background-color: yellow;
   border-radius: 2px;
+  padding: 25px 0;
+  overflow: hidden;
 }
 
 h1 {
@@ -66,6 +67,17 @@ h1 {
 /******************
 GALLERY DROP DOWN
 ******************/
+nav {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 0 0 20px;
+  font-size: 24px;
+}
+
+
+/**
 nav {
   float: right;
   font-size: 20px;
@@ -81,13 +93,22 @@ nav ul {
 }
 
 nav li {
-  display: inline;
   list-style: none;
-  padding-right: 20px;
+  display: inline-block;
 }
 
+nav li first-child {
+  padding-right: 10px;
+
+}
+**/
+
 .button1 {
-  color: red;
+  color: yellow;
+  background-color: black;
+  padding: 5px 15px;
+  border-radius: 50%
+
 }
 
 /********************
@@ -199,3 +220,19 @@ a {
 .contact {
   text-align: center;
 }
+
+
+/*****************
+MAIN GALLERY
+*****************/
+
+.main-gallery {
+  display: flex;
+  flex-direction: row;
+}
+
+
+/*****************
+MOBILE VERSION
+*****************/
+
