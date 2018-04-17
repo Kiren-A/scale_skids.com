@@ -112,7 +112,7 @@ Pictures & Main
   bottom: -200PX;
   right: -350px;
   width: 550px;
-  margin-right: 80px;
+  margin-right: 60px;
 }
 
 img {
@@ -122,7 +122,7 @@ img {
   border-radius: 20px;
   max-width: 750px;
   max-height: 500px;
-  margin: 20px 20px 10px 20px;
+  margin: 20px;
   
 }
 
@@ -174,7 +174,7 @@ span {
 .testimonial div {
   background-color: yellow;
   text-align: center;
-  padding: 50px 0;
+  margin-top: 20px;
   border-radius: 50%;
 
 }
