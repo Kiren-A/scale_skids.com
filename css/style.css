@@ -49,6 +49,13 @@ body {
 /*************
 HEADER  
 ************/
+.header-line {
+  text-decoration: underline;
+  color: black;
+  height: 3px;
+}
+
+
 header,
 footer {
   background-color: yellow;
@@ -108,7 +115,7 @@ Pictures & Main
   bottom: -200PX;
   right: -350px;
   width: 550px;
-  margin-right: 60px;
+  margin-right: 80px;
 }
 
 img {
@@ -215,9 +222,10 @@ MAIN GALLERY
   border-style: solid;
   border-color: yellow;
   border-radius: 20px;
-  max-width: 550px;
+  max-width: 400px;
   max-height: 350px;
-  margin: 20px 20px 10px 20px;
+  margin: 20px;
+  padding: 15px;
 }
 /*****************
 MOBILE VERSION
