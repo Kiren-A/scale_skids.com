@@ -49,12 +49,6 @@ body {
 /*************
 HEADER  
 ************/
-.header-line {
-  text-decoration: underline;
-  color: black;
-  height: 3px;
-}
-
 
 header,
 footer {
@@ -131,17 +125,17 @@ p {
   font-family: open-sans;
   font-style: bold;
   color: white;
-  border-radius: 50%;
-
 }
 
 .image-right,
 .image-left {
   display: flex;
+
 }
 
 .image-right img {
   order: 1;
+
 }
 
 .image-left img {
@@ -155,6 +149,7 @@ p {
   margin-left: 20px;
   margin-right: 20px;
   text-align: justify;
+
 }
 
 /*************
@@ -212,6 +207,7 @@ MAIN GALLERY
   flex-direction: row;
   flex-flow: row wrap;
   justify-content: space-evenly;
+  
 }
 
 .main-gallery img {
@@ -219,6 +215,7 @@ MAIN GALLERY
   border-style: solid;
   border-color: yellow;
   border-radius: 20px;
+  background-color: white;
   max-width: 400px;
   max-height: 350px;
   margin: 20px;
