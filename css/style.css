@@ -37,9 +37,9 @@ body {
 
 /* Center the container */
 .container {
-  max-width: 90%;
-  margin: 0 auto;
-  width: 1024px;
+  width: 90%;
+  margin: 20px auto;
+  max-width: 2000px; /* This is prevent the page from looking funny when you zoom out*/
 }
 
 /******************************************
@@ -94,9 +94,6 @@ nav ul li {
 /********************
 Pictures & Main
 ********************/
-.main {
-  margin: 10px;
-}
 
 .main-pic-wrapper {
   position: relative;
@@ -254,9 +251,10 @@ body {
 
 
 
-  .slick-slide {
-    width: 500px;
+/*****************
+SLICK CUSTOMISATION
+*****************/
+  div.slick-slide {
+    padding: 80px 30px; /*adjust the padding on the oval shape to create more space
   }
-
-  **/
 }
