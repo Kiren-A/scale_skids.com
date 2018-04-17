@@ -37,9 +37,9 @@ body {
 
 /* Center the container */
 .container {
-  max-width: 90%;
-  margin: 0 auto;
-  width: 1024px;
+  width: 90%;
+  margin: 20px auto;
+  max-width: 2000px; /* This is prevent the page from looking funny when you zoom out*/
 }
 
 /******************************************
@@ -49,12 +49,6 @@ body {
 /*************
 HEADER  
 ************/
-.header-line {
-  text-decoration: underline;
-  color: black;
-  height: 3px;
-}
-
 
 header,
 footer {
@@ -94,9 +88,6 @@ nav ul li {
 /********************
 Pictures & Main
 ********************/
-.main {
-  margin: 10px;
-}
 
 .main-pic-wrapper {
   position: relative;
@@ -115,7 +106,7 @@ Pictures & Main
   bottom: -200PX;
   right: -350px;
   width: 550px;
-  margin-right: 80px;
+  margin-right: 60px;
 }
 
 img {
@@ -125,7 +116,7 @@ img {
   border-radius: 20px;
   max-width: 750px;
   max-height: 500px;
-  margin: 20px 20px 10px 20px;
+  margin: 20px;
   
 }
 
@@ -134,17 +125,17 @@ p {
   font-family: open-sans;
   font-style: bold;
   color: white;
-  border-radius: 50%;
-
 }
 
 .image-right,
 .image-left {
   display: flex;
+
 }
 
 .image-right img {
   order: 1;
+
 }
 
 .image-left img {
@@ -158,6 +149,7 @@ p {
   margin-left: 20px;
   margin-right: 20px;
   text-align: justify;
+
 }
 
 /*************
@@ -177,7 +169,7 @@ span {
 .testimonial div {
   background-color: yellow;
   text-align: center;
-  padding: 50px 0;
+  margin-top: 20px;
   border-radius: 50%;
 
 }
@@ -215,6 +207,7 @@ MAIN GALLERY
   flex-direction: row;
   flex-flow: row wrap;
   justify-content: space-evenly;
+  
 }
 
 .main-gallery img {
@@ -222,6 +215,7 @@ MAIN GALLERY
   border-style: solid;
   border-color: yellow;
   border-radius: 20px;
+  background-color: white;
   max-width: 400px;
   max-height: 350px;
   margin: 20px;
@@ -254,9 +248,10 @@ body {
 
 
 
-  .slick-slide {
-    width: 500px;
+/*****************
+SLICK CUSTOMISATION
+*****************/
+  div.slick-slide {
+    padding: 80px 30px; /*adjust the padding on the oval shape to create more space
   }
-
-  **/
 }
