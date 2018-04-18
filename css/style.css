@@ -94,10 +94,6 @@ Pictures & Main
   display: inline-block;
 }
 
-.main-image p {
-
-}
-
 .main-pic-wrapper .main-image {
   width: 100%;
   max-width: 1000px;
@@ -215,7 +211,7 @@ MAIN GALLERY
 .main-gallery {
   display: flex;
   flex-direction: row;
-  flex-flow: row wrap;
+  flex-flow: row wrap;  
   justify-content: space-evenly;
   
 }
