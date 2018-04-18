@@ -94,6 +94,10 @@ Pictures & Main
   display: inline-block;
 }
 
+.main-image p {
+
+}
+
 .main-pic-wrapper .main-image {
   width: 100%;
   max-width: 1000px;
@@ -103,10 +107,10 @@ Pictures & Main
 
 .main-pic-wrapper .secondary-image {
   position: absolute;
-  bottom: -200PX;
-  right: -350px;
+  bottom: -50PX;
+  right: -450px;
   width: 550px;
-  margin-right: 60px;
+  margin-right: 10px;
 }
 
 img {
