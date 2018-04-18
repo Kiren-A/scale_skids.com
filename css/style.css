@@ -26,7 +26,7 @@ body {
 	color: #000;
 	line-height: 1.5;
 	font-family: 'Open Sans', 'merriweather' sans-serif;
-  background-color: black;
+  background-color: #000;
   
 }
 
@@ -52,7 +52,7 @@ HEADER
 
 header,
 footer {
-  background-color: yellow;
+  background-color: #FFFF00;
   border-radius: 2px;
   padding: 15px 0;
   overflow: hidden;
@@ -78,8 +78,8 @@ nav ul li {
 }
 
 .button1 {
-  color: yellow;
-  background-color: black;
+  color: #FFFF00;
+  background-color: #000;
   padding: 5px 15px;
   border-radius: 50%
 
@@ -116,7 +116,7 @@ Pictures & Main
 img {
   border: 5px;
   border-style: solid;
-  border-color: yellow;
+  border-color: #FFFF00;
   border-radius: 20px;
   max-width: 750px;
   max-height: 500px;
@@ -171,7 +171,7 @@ span {
 }
 
 .testimonial div {
-  background-color: yellow;
+  background-color: #FFFF00;
   text-align: center;
   margin-top: 20px;
   border-radius: 50%;
@@ -190,7 +190,7 @@ a {
   }
 
 .contact a {
-  color: black;
+  color: #000;
 }
 
 .facebook a {
@@ -198,7 +198,7 @@ a {
 }
 
 .contact p {
-  color: black;
+  color: #000;
   padding-top: 20px;
 
 }
@@ -223,7 +223,7 @@ MAIN GALLERY
 .main-gallery img {
   border: 5px;
   border-style: solid;
-  border-color: yellow;
+  border-color: #FFFF00;
   border-radius: 20px;
   background-color: white;
   max-width: 400px;
