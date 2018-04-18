@@ -183,8 +183,14 @@ FOOTER
 a {
   display: inline-block;
   list-style: none;
-  color: black;
+  }
 
+.contact a {
+  color: black;
+}
+
+.facebook a {
+  
 }
 
 .contact p {
