@@ -189,8 +189,10 @@ a {
   color: #000;
 }
 
-.facebook a {
+.facebook i {
+  color: #4267b2;
   
+
 }
 
 .contact p {
@@ -227,6 +229,15 @@ MAIN GALLERY
   margin: 20px;
   padding: 15px;
 }
+
+
+/*****************
+SLICK CUSTOMISATION
+*****************/
+  div.slick-slide {
+    padding: 80px 30px; /*adjust the padding on the oval shape to create more space
+  }
+
 /*****************
 MOBILE VERSION
 *****************/
@@ -250,14 +261,4 @@ MOBILE VERSION
 body {
   font-family: sans-serif;
   margin: 0;
-}
-
-
-
-/*****************
-SLICK CUSTOMISATION
-*****************/
-  div.slick-slide {
-    padding: 80px 30px; /*adjust the padding on the oval shape to create more space
-  }
 }
