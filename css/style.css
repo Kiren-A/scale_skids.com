@@ -39,7 +39,7 @@ body {
 .container {
   width: 90%;
   margin: 20px auto;
-  max-width: 2000px; /* This is prevent the page from looking funny when you zoom out*/
+  max-width: 1024px; /* This is prevent the page from looking funny when you zoom out*/
 }
 
 /******************************************
@@ -91,7 +91,6 @@ Pictures & Main
 
 .main-pic-wrapper {
   position: relative;
-  display: inline-block;
 }
 
 .main-pic-wrapper .main-image {
@@ -104,8 +103,8 @@ Pictures & Main
 .main-pic-wrapper .secondary-image {
   position: absolute;
   bottom: -50PX;
-  right: -450px;
-  width: 550px;
+  right: 0;
+  width: 400px;
   margin-right: 10px;
 }
 
